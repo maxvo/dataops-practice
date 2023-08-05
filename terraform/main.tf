@@ -1,6 +1,4 @@
-module "terraform_state" {
-  source        = "./modules/s3"
-  bucket_name   = "tfstate"
+module "choreograph" {
+  source = "./choreograph"
   bucket_prefix = local.bucket_prefix
-  destroy = false
 }

@@ -1,8 +1,8 @@
 terraform {
-  backend "s3" {
-    bucket = "mvo-297710099726-tfstate"
-    key = "tfstate"
-  }
+  # backend "s3" {
+  #   bucket = "mvo-297710099726-tfstate"
+  #   key = "tfstate"
+  # }
   required_version = "~> 1.5.0"
   required_providers {
     aws = {
